@@ -11,18 +11,24 @@
 ![1 2](https://user-images.githubusercontent.com/61002120/76416050-5807d380-63c0-11ea-8d52-9e8750e800f9.png)
 
 ## Progression 1:
+
 Create `Main.java` with main method Create Skill.java domain class with below attributes, 
 • skilld - Long 
 • skillName - String 
 
+
 ## Progression 2:
+
 Include getter and setter method for all the attributes Include constructor with below arguments public Skill(skilld, skillName)
 
+
 ## Progression 3:
+
 Create `SkillDAO.java` with below methods to handle all database related operations
 `public List< Skill > listAll Skills ()` - Method used to fetch all the skills from skill table and returns the list of skills. Display the skills in ascending order based on name. 
 
 _DAO Layer - Data access layer provides the gateway to create, reterive, update or delete any data in the database. All database related operations will be performed in this layer._
+
 
 ### Note:
 
