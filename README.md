@@ -9,8 +9,6 @@
 
 
 ![1 2](https://user-images.githubusercontent.com/61002120/76415418-2d694b00-63bf-11ea-9f97-3c19b5cd1981.png)
-
- 
 ## Progression 1:
 Create `Main.java` with main method Create Skill.java domain class with below attributes, 
 • skilld - Long 
