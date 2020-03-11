@@ -8,7 +8,8 @@
 ![sql](https://user-images.githubusercontent.com/58466121/76389844-3c85d400-6392-11ea-875f-8cd9676219b2.JPG)
 
 
-![1 2](https://user-images.githubusercontent.com/61002120/76415418-2d694b00-63bf-11ea-9f97-3c19b5cd1981.png)
+![1 2](https://user-images.githubusercontent.com/61002120/76416050-5807d380-63c0-11ea-8d52-9e8750e800f9.png)
+
 ## Progression 1:
 Create `Main.java` with main method Create Skill.java domain class with below attributes, 
 • skilld - Long 
