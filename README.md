@@ -25,6 +25,7 @@ Create `SkillDAO.java` with below methods to handle all database related operati
 _DAO Layer - Data access layer provides the gateway to create, reterive, update or delete any data in the database. All database related operations will be performed in this layer._
 
 ### Note:
+
 Use the below code to retreive the connection details from mysql.properties to establish connection
 ```
 public static Properties loadPropertiesFile() throws Exception {
@@ -34,9 +35,10 @@ public static Properties loadPropertiesFile() throws Exception {
 	in.close(); 
 	return prop;
 }
-	 ```    
+```    
 
 **Sample Output**
+
 > List of all skills 
 > 1) All Rounder 
 > 2) Batting 
