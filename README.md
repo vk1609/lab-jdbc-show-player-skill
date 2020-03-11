@@ -10,11 +10,7 @@
 
 ![1 2](https://user-images.githubusercontent.com/61002120/76415418-2d694b00-63bf-11ea-9f97-3c19b5cd1981.png)
 
-The IPL is the most-attended cricket league in the world and ranks sixth among all sports leagues.IPL has players with unique skills. IPL helped players to potray their skills and provided opportunity to play international cricket. Your first module is to display all the skills in the application. Mysql is used as the database and the application uses JDBC API to connect with the database. 
-Specification: 
  
-
-
 ## Progression 1:
 Create `Main.java` with main method Create Skill.java domain class with below attributes, 
 • skilld - Long 
@@ -31,7 +27,7 @@ _DAO Layer - Data access layer provides the gateway to create, reterive, update 
 
 **Sample Output**
 > List of all skills 
->> 1) All Rounder 
->> 2) Batting 
->> 3) Bowling 
->> 4) Wicket Keeping Batting 
+> 1) All Rounder 
+> 2) Batting 
+> 3) Bowling 
+> 4) Wicket Keeping Batting 
