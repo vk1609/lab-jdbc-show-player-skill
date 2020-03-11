@@ -26,13 +26,13 @@ _DAO Layer - Data access layer provides the gateway to create, reterive, update 
 
 ### Note:
 Use the below code to retreive the connection details from mysql.properties to establish connection
-`public static Properties loadPropertiesFile() throws Exception {
-		Properties prop = new Properties();
-		InputStream in = ConnectionManager.class.getClassLoader().getResourceAsStream("jdbc.properties");
-		prop.load(in);
-		in.close(); 
-		return prop;
-	}`
+> 	public static Properties loadPropertiesFile() throws Exception {
+>		Properties prop = new Properties();
+>		InputStream in = ConnectionManager.class.getClassLoader().getResourceAsStream("jdbc.properties");
+>		prop.load(in);
+>		in.close(); 
+>		return prop;
+>	}
 
 **Sample Output**
 > List of all skills 
