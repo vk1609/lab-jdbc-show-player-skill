@@ -5,8 +5,8 @@
 
 ## Progression 1:
 
-1. **Create `Main.java` with main method inside the controller package.**
-2. **Create Skill.java inside the model package with below attributes,**
+1. **Create a class called as `Main` with main method inside the controller package.**
+2. **Create a class called as `Skill.java` inside the model package with below attributes,**
 	- Long skilld 
 	- String skillName  
 3. **Include getter and setter method for all the attributes Include constructor with below arguments public Skill(skilld, skillName)**
@@ -14,7 +14,7 @@
 
 ## Progression 2:
 
-1. **Create `SkillDAO.java` inside dao package with below methods to handle all database related operations**
+1. **Create a dao-class called as `SkillDAO.java` inside dao package with below methods to handle all database related operations**
 	- ***public List< Skill > listAll Skills ()***
 	- The above method used to fetch all the skills from skill table and returns the list of skills.
 	- Display the skills in ascending order based on name. 
