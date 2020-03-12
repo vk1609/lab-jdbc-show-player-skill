@@ -29,7 +29,7 @@ _DAO Layer - Data access layer provides the gateway to create, reterive, update 
 
 ### Note:
 
-Use the below code to retreive the connection details from mysql.properties to establish connection
+Use the below code to retreive the connection details from jdbc.properties to establish connection
 ```
 public static Properties loadPropertiesFile() throws Exception {
 	Properties prop = new Properties();	
@@ -38,7 +38,17 @@ public static Properties loadPropertiesFile() throws Exception {
 	in.close(); 
 	return prop;
 }
-```    
+```
+Create a file called as jdbc.properites. To create a file right click on the application - new - file - name the file as jdbc.properties.
+```
+jdbc.properties
+#JDBC properties entry for MYSQL server
+driver = oracle.jdbc.OracleDriver
+url=jdbc:oracle:thin:@localhost:1521:xe
+username=SYSTEM
+password=root
+
+```
 
 **Sample Output**
 
