@@ -45,8 +45,8 @@ jdbc.properties
 #JDBC properties entry for MYSQL server
 driver = oracle.jdbc.OracleDriver
 url=jdbc:oracle:thin:@localhost:1521:xe
-username=SYSTEM
-password=root
+username=your_username
+password=your_password
 
 ```
 
