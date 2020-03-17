@@ -31,8 +31,8 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 1. ***Do not modify the entire code.***
 2. ***Edit the code as per the instructions.***
 3. ***Go to Java Resources -> src folder.***
-4. ***You will have two packages src/controller and src/utility.***
-5. ***Your database connection code should exist inside the utlity package.***
+4. ***You database connection code should exist inside the utlity package.***
+5. ***Your CREATE, READ, UPDATE and DELETE code should exist inside the dao package.***
 6. ***Once the progressions are completed follow the instructions to run the application and test your code.***
 7. ***Add appropriate jars to your project directory.***
 8. ***To add dependencies, right click on your project, select build path - configure build path - select libraries tab - select add external jars and add the downloaded jar files.***
