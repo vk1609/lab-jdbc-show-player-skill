@@ -4,7 +4,7 @@
 
 Like the Indian Premier League (IPL) which happens during April & May every year. Our team organizes ProGrad Premier League at the same time for all the Cricketers in our team. Our PPL schema is a complete repository of limited-over format of Cricket, that includes details like teams competing, player representing each team, scoring details, umpire details etc.
 
-Can you help build the database for our schema?
+Can you help out with the below task and take our database creation to completion?
 
 
 ## What Should You Do
