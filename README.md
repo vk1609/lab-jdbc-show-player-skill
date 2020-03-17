@@ -2,10 +2,9 @@
 
 # ProGrad Lab | ProGrad Premier League
 
+Like the Indian Premier League (IPL) which happens during April & May every year. Our team organizes ProGrad Premier League at the same time for all the Cricketers in our team. Our PPL schema is a complete repository of limited-over format of Cricket, that includes details like teams competing, player representing each team, scoring details, umpire details etc.
 
-
-
-
+Can you help build the database for our schema?
 
 
 ## What Should You Do
@@ -37,47 +36,46 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 7. ***Add appropriate jars to your project directory.***
 8. ***To add dependencies, right click on your project, select build path - configure build path - select libraries tab - select add external jars and add the downloaded jar files.***
 
-## Required Dependencies
+## Requirements
 If you haven't downloaded OJDBC driver (ojdbc6.jar), then download using this link [https://www.oracle.com/database/technologies/jdbcdriver-ucp-downloads.html]
 
-## Progression 0:
-1. ***Right click on src folder and select new - file and name it as jdbc.properties.***
-2. ***You can use the jdbc properties given below in the NOTE section.***
-
-## Progression 1:
-
-1. **Create a class called as `ConnectionManager` inside the utility package.**
-2. **Create a method public static Connection getConnection() which returns a connection object.** 
-3. **Use the method public static Properties loadPropertiesFile() to load the jdbc properties from the jdbc.properties file.**
-
-## Progression 2:
-
-1. **Create a class called as `Skill.java` inside the model package with below attributes,**
-	- Long skilld 
-	- String skillName  
-2. **Include getter and setter method for all the attributes.**
-3. **Include constructor with below arguments public Skill(skilld, skillName)**
-
-
-## Progression 3:
-
-1. **Create a dao-class called as `SkillDAO.java` inside dao package with below methods to handle all database related operations**
-	- ***public List< Skill > listAll Skills ()***
-	- The above method used to fetch all the skills from skill table and returns the list of skills.
-	- Display the skills in ascending order based on name. 
-	
-## Progression 4:
-1. **Create a controller-class called as Main inside the controller package.
-2. **Create appropriate objects for the Skill and SkillDAO.**
-3. **Refer sample output for output format.**
-
-## Points to remember:
-_DAO Layer - Data access layer provides the gateway to create, reterive, update or delete any data in the database. All database related operations will be performed in this layer._
-
-
+## Database Schema
 
 ![1 2](https://user-images.githubusercontent.com/61002120/76416050-5807d380-63c0-11ea-8d52-9e8750e800f9.png)
 
+## Progression 0:
+1. Right click on src folder and select new - file and name it as jdbc.properties.
+2. You can use the jdbc properties given below in the NOTE section.
+
+## Progression 1:
+
+1. Create a class called as `ConnectionManager` inside the utility package.
+2. Create a method public static Connection getConnection() which returns a connection object. 
+3. Use the method public static Properties loadPropertiesFile() to load the jdbc properties from the jdbc.properties file.
+
+## Progression 2:
+
+1. Create a class called as `Skill.java` inside the model package with below attributes,
+	- Long skilld 
+	- String skillName  
+2. Include getter and setter methods for all the attributes.
+3. Include constructor with below arguments public Skill(skilld, skillName)
+
+## Progression 3:
+
+1. Create a dao-class called as `SkillDAO.java` inside dao package with below methods to handle all database related operations
+	- ***public List< Skill > listAll Skills ()***
+	- The above method is used to fetch all the skills from skill table and returns the list of skills.
+	- Display the skills in ascending order based on name. 
+	
+## Progression 4:
+
+1. Create a controller-class called as Main inside the controller package.
+2. Create appropriate objects for the Skill and SkillDAO.
+3. Refer sample output for output format.
+
+## Points to remember:
+_DAO Layer - Data access layer provides the gateway to create, reterive, update or delete any data in the database. All database related operations will be performed in this layer._
 
 ### Note:
 
@@ -109,3 +107,7 @@ password=your_password
 > 2) Batting 
 > 3) Bowling 
 > 4) Wicket Keeping Batting 
+
+
+
+Happy Coding ❤️
